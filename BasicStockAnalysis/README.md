@@ -151,15 +151,22 @@ Negative_Drawdown = Daily_Drawdown.rolling(window, min_periods=1).min()
 
 Use matplot lib to depict the stocks:
 - adjusted closing price
+![Asj Close](Images/AdjClosePrice.png)
+
 - Adjusted close, high, low
+![High Low Adj Close Price](Images/HighLowAdjClosePrice.png)
 
 - Daily Returns
+![Daily Returns](Images/DailyReturns.png)
 
 - Log Returns
+![Log Returns](Images/LogReturns.png)
 
 - Histogram Distribution
+![Histogram](Images/Histogram.png)
 
 - Plot Drawdown
+![Max Drawdown](Images/MaxDD.png)
 
 ### Calculate Holding Period Return
 [Directory](#Directory)
